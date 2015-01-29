@@ -1,0 +1,52 @@
+#checker-table {
+	border-collapse: collapse;
+}
+
+#checker-table a.refresh {
+	text-decoration: none;
+}
+
+#checker-table td, #checker-table th {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#checker-table tr {
+	background: #dfdfdf;
+}
+
+#checker-table tr:nth-of-type(even) {
+	background: #d9d9d9;
+}
+
+#checker-table tr.old {
+	background: #ffdfdf;
+}
+
+#checker-table tr.old:nth-of-type(even) {
+	background: #f9d9d9;
+}
+
+#checker-table tr.current {
+	background: #dfffdf;
+}
+
+#checker-table tr.current:nth-of-type(even) {
+	background: #d9f9d9;
+}
+
+#checker-table tr.other {
+	background: #ffffdf;
+}
+
+#checker-table tr.other:nth-of-type(even) {
+	background: #f9f9d9;
+}
+
+#checker-table tr.loading {
+	background: #ffffff;
+}
+
+#checker-table tr.loading:nth-of-type(even) {
+	background: #f9f9f9;
+}
